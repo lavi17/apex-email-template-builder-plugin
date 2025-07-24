@@ -1,0 +1,140 @@
+/* This file is purely for Email Template builder CSS */
+
+#email-template-builder-container {
+    width:100%;
+    min-height:400px;
+    border:1px solid #ccc;
+    display: flex;
+}
+
+div.text_here:empty:before {
+    content: attr(data-placeholder);
+    color: #999;
+}
+
+div.text_here {
+    height: inherit;
+}
+
+#etb-palette {
+    width: 20%;
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+#etb-editor {
+    width: 80%;
+    height: calc(100vh - 120px);
+    overflow: auto;
+    padding: 5px;
+}
+
+.etb_prop {
+    border-bottom: 1px solid #ccc;
+}
+
+.etb_prop_child_head {
+    background-color: #d9eaf9;
+}
+
+.etb_prop_child_head, .etb_prop_child_det {
+    padding: 5px;
+}
+
+.etb_prop_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(180deg) !important;
+}
+
+.dis_no {
+    display: none !important;
+}
+
+.dot_brdr {
+    min-height: 40px;
+    border: 1px dotted;
+    margin: auto;
+    width: 100%;
+}
+
+.dotted_border {
+    border: 2px dotted blue !important;
+}
+
+.tab_dot_brdr {
+    border: 1px dotted;
+    /* height: 100px; */
+}
+
+.col_struc {
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.etb_prop_det {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.sld_brdr {
+    border-radius: 5%;
+    border: 1px solid #a7a6a6;
+    padding: 2rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+tr:hover td {
+    border: 2px dotted blue;
+}
+
+.image_here {
+    text-align: center;
+    height: inherit;
+    width: 100%;
+}
+
+#file-upload, #file-upload-g {
+    width: 95%;
+}
+
+.remove {
+    border: 1px solid;
+    background-color: red;
+    cursor: pointer;
+    /* right: 0;
+    top: -15px; */
+    border-radius: 4px;
+    color: white;
+}
+
+#btn-pallete {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.remove_td {
+    width:0px !important;
+    padding:0px !important;
+    background-color: #fff !important;
+}
+
+#etb-preview-reg {
+    display: none !important;
+}
