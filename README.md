@@ -53,3 +53,13 @@ Add a new region to your page.
 Select Region Type: Email Template Builder Plugin.
 
 Configure according to your use case.
+
+5️⃣ Copy below html in plugin region: Header Text
+
+<div id="btn-pallete">
+    <div class="t-Button t-Button--hot" onclick="preview(event)">Preview</div>
+    <div class="t-Button t-Button--warning" id="send-email">Send Test Email</div>
+    <div class="t-Button t-Button--success" id="save-html">Save</div>
+</div>
+
+6️⃣ After creating the template you can create your own save process and send email process with html id's for Save and Send Email
