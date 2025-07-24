@@ -29,7 +29,7 @@ apex-email-template-builder-plugin/
 
 ## 🛠️ Installation
 
-1️⃣ **Install the PL/SQL package:**
+1️⃣ Install the PL/SQL package:
 ```sql
 @path/to/email_builder_pkg.pks
 @path/to/email_builder_pkg.pkb
